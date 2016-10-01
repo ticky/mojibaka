@@ -1,0 +1,32 @@
+{
+  "name": "mojibaka",
+  "version": "0.0.1",
+  "description": "✨ Browser emoji support detection toolkit",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir lib --source-maps inline",
+    "test": "echo 'Tests not implemented yet!' && exit 1",
+    "lint": "eslint src",
+    "lint-and-fixup": "eslint --fix src"
+  },
+  "keywords": [
+    "emoji",
+    "💜",
+    "browser",
+    "feature_detection",
+    "✨"
+  ],
+  "homepage": "https://github.com/ticky/mojibaka",
+  "bugs": {
+    "url": "https://github.com/ticky/mojibaka/issues"
+  },
+  "repository": "https://github.com/ticky/mojibaka.git",
+  "author": "Jessica Stokes <hello@jessicastokes.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "eslint": "^3.7.0",
+    "eslint-plugin-babel": "^3.3.0"
+  }
+}
