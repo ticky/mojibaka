@@ -4,7 +4,7 @@
   "description": "✨ Browser emoji support detection toolkit",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "babel src --out-dir lib --source-maps inline --ignore \"**/*.spec.js\"",
+    "prepublish": "babel src --out-dir lib --source-maps inline --ignore \"**/*.spec.js,**/__fixtures__\"",
     "test": "jest",
     "build": "webpack",
     "server": "webpack-dev-server",
