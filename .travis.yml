@@ -1,6 +1,13 @@
 language: node_js
-node_js: 
-  - "node"
-before_install:
-  - "sudo apt-get -qq update"
-  - "sudo apt-get install -y libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++"
+node_js:
+  - node
+sudo: false
+addons:
+  apt:
+    packages:
+    - build-essential
+    - g++
+    - libcairo2-dev
+    - libgif-dev
+    - libjpeg8-dev
+    - libpango1.0-dev
