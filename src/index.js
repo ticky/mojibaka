@@ -3,8 +3,8 @@ import detectVersion from './detect/version';
 import detectFitzpatrick from './detect/fitzpatrick';
 import detectGenders from './detect/genders';
 
-export default function detect() {
-  const context = prepareCanvasContext();
+export default function detect(context) {
+  context = prepareCanvasContext(context);
 
   const version = detectVersion(context);
 

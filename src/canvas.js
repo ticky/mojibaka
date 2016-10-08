@@ -8,6 +8,7 @@ export function prepareCanvasContext(context) {
   } else {
     context.clearRect(0, 0, DRAW_SIZE * 2, DRAW_SIZE * 2);
   }
+
   return context;
 }
 
