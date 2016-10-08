@@ -1,3 +1,5 @@
+const webpack = require('webpack');
+
 module.exports = {
   entry: "./app/index.js",
   output: {
@@ -12,5 +14,8 @@ module.exports = {
     loaders: [
       { test: /\.js$/, loader: "babel-loader", exclude: /node_modules/ }
     ]
-  }
+  },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin()
+  ]
 };
