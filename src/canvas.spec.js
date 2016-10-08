@@ -1,8 +1,15 @@
+/* global describe, it, beforeEach, afterEach, expect, __dirname, jest */
 import { Image, Context2d } from 'canvas';
 import path from 'path';
 import fs from 'fs';
+import TEST_CHARS from './__fixtures__/test-characters';
 
 import { prepareCanvasContext, canDrawCharacter, getCharacterWidth } from './canvas';
+
+const FIXTURE_PATH = path.resolve(__dirname, '__fixtures__');
+
+const PLATFORMS = fs.readdirSync(FIXTURE_PATH)
+  .filter((filename) => fs.statSync(path.resolve(FIXTURE_PATH, filename)).isDirectory());
 
 function MOCK_AND_CALL_THROUGH_STORING_RETURN_VALUE(method, returnValueArray) {
   return jest.fn(function() {
@@ -11,21 +18,6 @@ function MOCK_AND_CALL_THROUGH_STORING_RETURN_VALUE(method, returnValueArray) {
     return returnValue;
   });
 }
-
-const FIXTURE_PATH = path.resolve(__dirname, '__fixtures__')
-
-const PLATFORMS = fs.readdirSync(FIXTURE_PATH)
-  .filter((filename) => fs.statSync(path.resolve(FIXTURE_PATH, filename)).isDirectory());
-
-const TEST_CHARS = [
-  '\u{1F478}',
-  '\u{1F478}\u{1F3FE}',
-  '\u{1F575}',
-  '\u{1F619}',
-  '\u{1F642}',
-  '\u{1F914}',
-  '\u{1F923}'
-];
 
 describe('canvas', () => {
   const _realCreateElement = document.createElement;
@@ -97,7 +89,6 @@ describe('canvas', () => {
   });
 
   describe('canDrawCharacter', () => {
-    const Context2d = require('canvas').Context2d;
     const _realFillText = Context2d.prototype.fillText;
 
     describe('in general', () => {
@@ -132,7 +123,7 @@ describe('canvas', () => {
     });
 
     PLATFORMS.forEach((platform) => {
-      describe('per-platform', () => {
+      describe(platform, () => {
         beforeEach(() => {
           Context2d.prototype.fillText = jest.fn(function(text) {
             const image = new Image();
@@ -149,7 +140,7 @@ describe('canvas', () => {
         });
 
         TEST_CHARS.forEach((char) => {
-          it(`can check rendering ${char} on ${platform}`, () => {
+          it(`shows expected behaviour for ${char}`, () => {
             expect(canDrawCharacter(char)).toMatchSnapshot();
             expect(document.createElement).toHaveBeenCalledTimes(1);
             expect(document.createElement).toHaveBeenCalledWith('canvas');
@@ -165,7 +156,7 @@ describe('canvas', () => {
     const _realMeasureText = Context2d.prototype.measureText;
 
     beforeEach(() => {
-      Context2d.prototype.measureText = jest.fn(() => ({width: 1234, height: -1234}));
+      Context2d.prototype.measureText = jest.fn(() => ({ width: 1234, height: -1234 }));
     });
 
     afterEach(() => {

@@ -1,2 +1,4 @@
+app
+
 # `lib` is included in npm dist
 !lib

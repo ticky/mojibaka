@@ -2,19 +2,47 @@ exports[`canvas canDrawCharacter in general with an existing canvas context call
 
 exports[`canvas canDrawCharacter in general with no canvas context calls through to fillText and confirms drawing without creating a context 1`] = `false`;
 
-exports[`canvas canDrawCharacter per-platform can check rendering 👸 on macos_10_12_safari 1`] = `true`;
+exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 👸 1`] = `true`;
 
-exports[`canvas canDrawCharacter per-platform can check rendering 👸🏾 on macos_10_12_safari 1`] = `true`;
+exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 👸🏾 1`] = `true`;
 
-exports[`canvas canDrawCharacter per-platform can check rendering 🕵 on macos_10_12_safari 1`] = `true`;
+exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🕵 1`] = `true`;
 
-exports[`canvas canDrawCharacter per-platform can check rendering 😙 on macos_10_12_safari 1`] = `true`;
+exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 😙 1`] = `true`;
 
-exports[`canvas canDrawCharacter per-platform can check rendering 🙂 on macos_10_12_safari 1`] = `true`;
+exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🙂 1`] = `true`;
 
-exports[`canvas canDrawCharacter per-platform can check rendering 🤔 on macos_10_12_safari 1`] = `true`;
+exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🤔 1`] = `true`;
 
-exports[`canvas canDrawCharacter per-platform can check rendering 🤣 on macos_10_12_safari 1`] = `false`;
+exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🤣 1`] = `false`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 👸 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 👸🏾 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 😙 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 🙂 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 🤔 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 🤣 1`] = `false`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 👸 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 👸🏾 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 😙 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 🙂 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 🤔 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 🤣 1`] = `false`;
 
 exports[`canvas getCharacterWidth with an existing canvas context calls through to measureText and returns the width 1`] = `1234`;
 

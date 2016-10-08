@@ -1,5 +1,5 @@
-node_modules
 coverage
+node_modules
 
 # `lib` is not included in git repo
 lib
