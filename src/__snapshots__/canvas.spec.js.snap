@@ -1,13 +1,35 @@
-exports[`canvas utilities prepareCanvasContext with an existing canvas context clears the canvas 1`] = `"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAABmJLR0QA/wD/AP+gvaeTAAABWklEQVR4nO3UwQ3AIBDAMK7770xX4Ici7Anyyuy193rYrJnbDcCZ73YAwCnDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB43A+aOwOAiiU5oAAAAABJRU5ErkJggg=="`;
+exports[`canvas canDrawCharacter in general with an existing canvas context calls through to fillText and confirms drawing 1`] = `false`;
 
-exports[`canvas utilities prepareCanvasContext with an existing canvas context clears the canvas 2`] = `"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAABmJLR0QA/wD/AP+gvaeTAAAAxUlEQVR4nO3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOA1v9QAATX68/0AAAAASUVORK5CYII="`;
+exports[`canvas canDrawCharacter in general with no canvas context calls through to fillText and confirms drawing without creating a context 1`] = `false`;
 
-exports[`canvas utilities prepareCanvasContext with an existing canvas context doesn't reconfigure the font and fillStyle 1`] = `"#ff00ff"`;
+exports[`canvas canDrawCharacter per-platform can check rendering 👸 on macos_10_12_safari 1`] = `true`;
 
-exports[`canvas utilities prepareCanvasContext with an existing canvas context doesn't reconfigure the font and fillStyle 2`] = `"12px Verdana"`;
+exports[`canvas canDrawCharacter per-platform can check rendering 👸🏾 on macos_10_12_safari 1`] = `true`;
 
-exports[`canvas utilities prepareCanvasContext with no canvas context creates a canvas with font and fillStyle 1`] = `"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAABmJLR0QA/wD/AP+gvaeTAAAAxUlEQVR4nO3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOA1v9QAATX68/0AAAAASUVORK5CYII="`;
+exports[`canvas canDrawCharacter per-platform can check rendering 🕵 on macos_10_12_safari 1`] = `true`;
 
-exports[`canvas utilities prepareCanvasContext with no canvas context creates a canvas with font and fillStyle 2`] = `"#000000"`;
+exports[`canvas canDrawCharacter per-platform can check rendering 😙 on macos_10_12_safari 1`] = `true`;
 
-exports[`canvas utilities prepareCanvasContext with no canvas context creates a canvas with font and fillStyle 3`] = `"32px \"Apple Color Emoji\",\"Segoe UI\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",Arial"`;
+exports[`canvas canDrawCharacter per-platform can check rendering 🙂 on macos_10_12_safari 1`] = `true`;
+
+exports[`canvas canDrawCharacter per-platform can check rendering 🤔 on macos_10_12_safari 1`] = `true`;
+
+exports[`canvas canDrawCharacter per-platform can check rendering 🤣 on macos_10_12_safari 1`] = `false`;
+
+exports[`canvas getCharacterWidth with an existing canvas context calls through to measureText and returns the width 1`] = `1234`;
+
+exports[`canvas getCharacterWidth with no canvas context calls through to measureText and returns the width without creating a context 1`] = `1234`;
+
+exports[`canvas prepareCanvasContext with an existing canvas context clears the canvas 1`] = `"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAABmJLR0QA/wD/AP+gvaeTAAABWklEQVR4nO3UwQ3AIBDAMK7770xX4Ici7Anyyuy193rYrJnbDcCZ73YAwCnDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB43A+aOwOAiiU5oAAAAABJRU5ErkJggg=="`;
+
+exports[`canvas prepareCanvasContext with an existing canvas context clears the canvas 2`] = `"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAABmJLR0QA/wD/AP+gvaeTAAAAxUlEQVR4nO3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOA1v9QAATX68/0AAAAASUVORK5CYII="`;
+
+exports[`canvas prepareCanvasContext with an existing canvas context doesn't reconfigure the font and fillStyle 1`] = `"#ff00ff"`;
+
+exports[`canvas prepareCanvasContext with an existing canvas context doesn't reconfigure the font and fillStyle 2`] = `"12px Verdana"`;
+
+exports[`canvas prepareCanvasContext with no canvas context creates a canvas with font and fillStyle 1`] = `"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAABmJLR0QA/wD/AP+gvaeTAAAAxUlEQVR4nO3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOA1v9QAATX68/0AAAAASUVORK5CYII="`;
+
+exports[`canvas prepareCanvasContext with no canvas context creates a canvas with font and fillStyle 2`] = `"#000000"`;
+
+exports[`canvas prepareCanvasContext with no canvas context creates a canvas with font and fillStyle 3`] = `"32px \"Apple Color Emoji\",\"Segoe UI\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",Arial"`;

@@ -1,4 +1,8 @@
-import { prepareCanvasContext, getCharacterWidth } from './canvas';
+import { Image, Context2d } from 'canvas';
+import path from 'path';
+import fs from 'fs';
+
+import { prepareCanvasContext, canDrawCharacter, getCharacterWidth } from './canvas';
 
 function MOCK_AND_CALL_THROUGH_STORING_RETURN_VALUE(method, returnValueArray) {
   return jest.fn(function() {
@@ -8,30 +12,22 @@ function MOCK_AND_CALL_THROUGH_STORING_RETURN_VALUE(method, returnValueArray) {
   });
 }
 
-const PLATFORM_FIXTURES = {
-  'mac_os_10_12': {
-    measureText: {
-      '\u{1F478}': {
-        height: 0,
-        width: 0
-      },
-      '\u{1F478}\u{1F3FE}': {
-        height: 0,
-        width: 0
-      },
-      '\u{1F575}': {
-        height: 0,
-        width: 0
-      },
-      '\u{1F575}\u{FE0F}\u{200D}\u{2640}\u{FE0F}': {
-        height: 0,
-        width: 0
-      }
-    }
-  }
-};
+const FIXTURE_PATH = path.resolve(__dirname, '__fixtures__')
 
-describe('canvas utilities', () => {
+const PLATFORMS = fs.readdirSync(FIXTURE_PATH)
+  .filter((filename) => fs.statSync(path.resolve(FIXTURE_PATH, filename)).isDirectory());
+
+const TEST_CHARS = [
+  '\u{1F478}',
+  '\u{1F478}\u{1F3FE}',
+  '\u{1F575}',
+  '\u{1F619}',
+  '\u{1F642}',
+  '\u{1F914}',
+  '\u{1F923}'
+];
+
+describe('canvas', () => {
   const _realCreateElement = document.createElement;
   const _realGetContext = HTMLCanvasElement.prototype.getContext;
   let _createdElements = [];
@@ -101,17 +97,71 @@ describe('canvas utilities', () => {
   });
 
   describe('canDrawCharacter', () => {
-    describe('with an existing canvas context', () => {
+    const Context2d = require('canvas').Context2d;
+    const _realFillText = Context2d.prototype.fillText;
 
+    describe('in general', () => {
+      beforeEach(() => {
+        Context2d.prototype.fillText = jest.fn();
+      });
+
+      afterEach(() => {
+        Context2d.prototype.fillText = _realFillText;
+      });
+
+      describe('with an existing canvas context', () => {
+        it('calls through to fillText and confirms drawing', () => {
+          const context = document.createElement('canvas').getContext('2d');
+          expect(canDrawCharacter('■', context)).toMatchSnapshot();
+          expect(document.createElement).toHaveBeenCalledTimes(1);
+          expect(document.createElement).toHaveBeenCalledWith('canvas');
+          expect(Context2d.prototype.fillText).toHaveBeenCalledTimes(1);
+          expect(Context2d.prototype.fillText).toHaveBeenCalledWith('■', 0, 32);
+        });
+      });
+
+      describe('with no canvas context', () => {
+        it('calls through to fillText and confirms drawing without creating a context', () => {
+          expect(canDrawCharacter('■')).toMatchSnapshot();
+          expect(document.createElement).toHaveBeenCalledTimes(1);
+          expect(document.createElement).toHaveBeenCalledWith('canvas');
+          expect(Context2d.prototype.fillText).toHaveBeenCalledTimes(1);
+          expect(Context2d.prototype.fillText).toHaveBeenCalledWith('■', 0, 32);
+        });
+      });
     });
 
-    describe('with no canvas context', () => {
+    PLATFORMS.forEach((platform) => {
+      describe('per-platform', () => {
+        beforeEach(() => {
+          Context2d.prototype.fillText = jest.fn(function(text) {
+            const image = new Image();
+            image.src = fs.readFileSync(path.resolve(
+              __dirname,
+              `__fixtures__/${platform}/${text.split('').map((char) => char.charCodeAt(0).toString(16)).join('-')}.png`
+            ));
+            this.drawImage(image, 0, 0);
+          });
+        });
 
+        afterEach(() => {
+          Context2d.prototype.fillText = _realFillText;
+        });
+
+        TEST_CHARS.forEach((char) => {
+          it(`can check rendering ${char} on ${platform}`, () => {
+            expect(canDrawCharacter(char)).toMatchSnapshot();
+            expect(document.createElement).toHaveBeenCalledTimes(1);
+            expect(document.createElement).toHaveBeenCalledWith('canvas');
+            expect(Context2d.prototype.fillText).toHaveBeenCalledTimes(1);
+            expect(Context2d.prototype.fillText).toHaveBeenCalledWith(char, 0, 32);
+          });
+        });
+      });
     });
   });
 
   describe('getCharacterWidth', () => {
-    const Context2d = require('canvas').Context2d;
     const _realMeasureText = Context2d.prototype.measureText;
 
     beforeEach(() => {
@@ -125,7 +175,7 @@ describe('canvas utilities', () => {
     describe('with an existing canvas context', () => {
       it('calls through to measureText and returns the width', () => {
         const context = document.createElement('canvas').getContext('2d');
-        expect(getCharacterWidth('foo', context)).toBe(1234);
+        expect(getCharacterWidth('foo', context)).toMatchSnapshot();
         expect(document.createElement).toHaveBeenCalledTimes(1);
         expect(document.createElement).toHaveBeenCalledWith('canvas');
         expect(Context2d.prototype.measureText).toHaveBeenCalledTimes(1);
@@ -135,7 +185,7 @@ describe('canvas utilities', () => {
 
     describe('with no canvas context', () => {
       it('calls through to measureText and returns the width without creating a context', () => {
-        expect(getCharacterWidth('foo')).toBe(1234);
+        expect(getCharacterWidth('foo')).toMatchSnapshot();
         expect(document.createElement).toHaveBeenCalledTimes(1);
         expect(document.createElement).toHaveBeenCalledWith('canvas');
         expect(Context2d.prototype.measureText).toHaveBeenCalledTimes(1);
