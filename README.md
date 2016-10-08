@@ -1,5 +1,5 @@
 # ✨ Mojibaka
-[![npm](https://img.shields.io/npm/v/mojibaka.svg?maxAge=2592000)](https://www.npmjs.com/package/mojibaka) ![mojibaka](https://img.shields.io/npm/l/mojibaka.svg?maxAge=2592000) 
+[![npm](https://img.shields.io/npm/v/mojibaka.svg?maxAge=2592000)](https://www.npmjs.com/package/mojibaka) ![mojibaka](https://img.shields.io/npm/l/mojibaka.svg?maxAge=2592000)  [![Build Status](https://travis-ci.org/ticky/mojibaka.svg?branch=master)](https://travis-ci.org/ticky/mojibaka)
 
 A browser emoji support detection toolkit
 
