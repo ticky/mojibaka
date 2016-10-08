@@ -11,7 +11,7 @@ Context2DConstructor.prototype.fillText = function(text) {
 
 import JSZip from 'jszip';
 import useragent from 'express-useragent';
-import { canDrawCharacter } from '../src/canvas';
+import { canDrawCharacter, getCharacterWidth } from '../src/canvas';
 import TEST_CHARS from '../src/__fixtures__/test-characters';
 
 const userAgent = (() => {
@@ -23,7 +23,15 @@ function generate(evt) {
   evt.preventDefault();
 
   images = {};
-  TEST_CHARS.forEach((char) => canDrawCharacter(char));
+  const info = {};
+
+  TEST_CHARS.forEach((char) => {
+    info[char] = {
+      width: getCharacterWidth(char)
+    };
+
+    canDrawCharacter(char);
+  });
 
   const imageNames = Object.keys(images);
 
@@ -39,8 +47,10 @@ function generate(evt) {
       `${name.split('').map((char) => char.charCodeAt(0).toString(16)).join('-')}.png`,
       images[name].split(',').slice(1).join(','),
       { base64: true }
-    )
+    );
   });
+
+  imageFolder.file('info.json', JSON.stringify(info, null, '\t'));
 
   zip.generateAsync({type:"base64"}).then(function (base64) {
     location.href = "data:application/zip;base64," + base64;
