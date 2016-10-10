@@ -74,6 +74,30 @@ exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected beha
 
 exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 🤣 1`] = `false`;
 
+exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for ☑️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for ♥ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for ♥️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for ⬛ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 👸 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 👸🏾 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 😙 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 🙂 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 🤔 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 🤣 1`] = `false`;
+
 exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for ☑️ 1`] = `true`;
 
 exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for ♥ 1`] = `true`;
