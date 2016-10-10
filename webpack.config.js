@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
   entry: "./app/index.js",
@@ -8,14 +9,17 @@ module.exports = {
   },
   devServer: {
     inline: true,
-    contentBase: "./docs"
+    contentBase: "./docs",
+    host: "0.0.0.0"
   },
   module: {
     loaders: [
-      { test: /\.js$/, loader: "babel-loader", exclude: /node_modules/ }
+      { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
+      { test: /\.css$/, loader: ExtractTextPlugin.extract('css-loader'), exclude: /node_modules/ }
     ]
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin()
+    new webpack.optimize.UglifyJsPlugin(),
+    new ExtractTextPlugin("bundle.css", { allChunks: true })
   ]
 };

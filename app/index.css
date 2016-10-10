@@ -1,0 +1,33 @@
+body {
+  color: #515151;
+  background-color: #fbfbfb;
+  margin: 2.75em 1.75em;
+  text-align: center;
+  font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Lucida Grande";
+}
+
+a:link, a:visited {
+  color: #893ff4;
+  text-decoration: none;
+}
+
+a:link:hover, a:visited:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .hide-small {
+    display: none;
+  }
+
+  .secondary {
+    font-size: smaller;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 768px) {
+  .hide-big {
+    display: none;
+  }
+}
