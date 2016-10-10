@@ -1,10 +1,10 @@
 import { canDrawCharacter } from '../canvas';
 
 const VERSION_CANDIDATE_EMOJI = {
-  '6.1': '\u{1F619}', // Kissing Face With Smiling Eyes
-  '7.0': '\u{1F642}', // Slightly Smiling Face
-  '8.0': '\u{1F914}', // Thinking Face
-  '9.0': '\u{1F923}'  // Rolling On The Floor Laughing
+  '6.1': '😙', // Kissing Face With Smiling Eyes
+  '7.0': '🙂', // Slightly Smiling Face
+  '8.0': '🤔', // Thinking Face
+  '9.0': '🤣'  // Rolling On The Floor Laughing
 };
 
 export default function detectVersion(context) {

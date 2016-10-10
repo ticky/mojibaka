@@ -1,8 +1,14 @@
 const DRAW_SIZE = 32;
 
+function newContext() {
+  const canvas = document.createElement('canvas');
+  canvas.width = canvas.height = DRAW_SIZE * 2;
+  return canvas.getContext('2d');
+}
+
 export function prepareCanvasContext(context) {
   if (!context) {
-    context = document.createElement('canvas').getContext('2d');
+    context = newContext();
     context.fillStyle = "#000";
     context.font = `${DRAW_SIZE}px "Apple Color Emoji","Segoe UI","Segoe UI Emoji","Segoe UI Symbol",Arial`;
   } else {
