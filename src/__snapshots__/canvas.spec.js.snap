@@ -1,22 +1,18 @@
-exports[`canvas canDrawCharacter Ubuntu 16.04 - Firefox 47.0 shows expected behaviour for 👸 1`] = `false`;
+exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for ☑️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter Ubuntu 16.04 - Firefox 47.0 shows expected behaviour for 👸🏾 1`] = `false`;
+exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for ♥ 1`] = `true`;
 
-exports[`canvas canDrawCharacter Ubuntu 16.04 - Firefox 47.0 shows expected behaviour for 🕵 1`] = `false`;
+exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for ♥️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter Ubuntu 16.04 - Firefox 47.0 shows expected behaviour for 😙 1`] = `false`;
-
-exports[`canvas canDrawCharacter Ubuntu 16.04 - Firefox 47.0 shows expected behaviour for 🙂 1`] = `false`;
-
-exports[`canvas canDrawCharacter Ubuntu 16.04 - Firefox 47.0 shows expected behaviour for 🤔 1`] = `false`;
-
-exports[`canvas canDrawCharacter Ubuntu 16.04 - Firefox 47.0 shows expected behaviour for 🤣 1`] = `false`;
+exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for ⬛ 1`] = `true`;
 
 exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for 👸 1`] = `true`;
 
 exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for 👸🏾 1`] = `true`;
 
 exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
 
 exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for 😙 1`] = `true`;
 
@@ -30,11 +26,21 @@ exports[`canvas canDrawCharacter in general with an existing canvas context call
 
 exports[`canvas canDrawCharacter in general with no canvas context calls through to fillText and confirms drawing without creating a context 1`] = `false`;
 
+exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for ☑️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for ♥ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for ♥️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for ⬛ 1`] = `true`;
+
 exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 👸 1`] = `true`;
 
 exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 👸🏾 1`] = `true`;
 
 exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
 
 exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 😙 1`] = `true`;
 
@@ -44,53 +50,21 @@ exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expec
 
 exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🤣 1`] = `false`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 👸 1`] = `true`;
+exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for ☑️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 👸🏾 1`] = `true`;
+exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for ♥ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 🕵 1`] = `true`;
+exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for ♥️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 😙 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 🙂 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 🤔 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 🤣 1`] = `false`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 52.0 (Symbola) shows expected behaviour for 👸 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 52.0 (Symbola) shows expected behaviour for 👸🏾 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 52.0 (Symbola) shows expected behaviour for 🕵 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 52.0 (Symbola) shows expected behaviour for 😙 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 52.0 (Symbola) shows expected behaviour for 🙂 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 52.0 (Symbola) shows expected behaviour for 🤔 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 52.0 (Symbola) shows expected behaviour for 🤣 1`] = `false`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 👸 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 👸🏾 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 🕵 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 😙 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 🙂 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 🤔 1`] = `true`;
-
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 🤣 1`] = `false`;
+exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for ⬛ 1`] = `true`;
 
 exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 👸 1`] = `true`;
 
 exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 👸🏾 1`] = `true`;
 
 exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
 
 exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 😙 1`] = `true`;
 
@@ -112,7 +86,7 @@ exports[`canvas prepareCanvasContext with an existing canvas context doesn't rec
 
 exports[`canvas prepareCanvasContext with an existing canvas context doesn't reconfigure the font and fillStyle 2`] = `"12px Verdana"`;
 
-exports[`canvas prepareCanvasContext with no canvas context creates a canvas with font and fillStyle 1`] = `"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAABmJLR0QA/wD/AP+gvaeTAAAAxUlEQVR4nO3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOA1v9QAATX68/0AAAAASUVORK5CYII="`;
+exports[`canvas prepareCanvasContext with no canvas context creates a canvas with font and fillStyle 1`] = `"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAAJ0lEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAIB3A0BAAAGP8slRAAAAAElFTkSuQmCC"`;
 
 exports[`canvas prepareCanvasContext with no canvas context creates a canvas with font and fillStyle 2`] = `"#000000"`;
 
