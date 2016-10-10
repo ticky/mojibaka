@@ -62,6 +62,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  document.getElementById('generate').addEventListener('click', generate);
-  document.getElementById('userAgent').innerText = `${userAgent} 👍🏼`;
+  const workArea = document.getElementById('work-area');
+
+  const generateButton = document.createElement('button');
+  generateButton.appendChild(document.createTextNode('🗜Generate test fixtures'));
+  generateButton.addEventListener('click', generate);
+  workArea.appendChild(generateButton);
+
+  const userAgentReadout = document.createElement('p');
+  userAgentReadout.appendChild(document.createTextNode(`for ${userAgent} 👍🏼`));
+  workArea.appendChild(userAgentReadout);
 });
