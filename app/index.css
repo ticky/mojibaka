@@ -1,9 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #515151;
   background-color: #fbfbfb;
-  margin: 2.75em 1.75em;
+  margin: 0;
+  padding: 2.75em 1.75em;
   text-align: center;
   font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Lucida Grande";
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+button {
+  cursor: pointer;
 }
 
 a:link, a:visited {
