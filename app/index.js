@@ -7,13 +7,17 @@ import TEST_CHARS from '../src/__fixtures__/test-characters';
 
 require('./index.css');
 
-const userAgent = (() => {
-  const { os, browser, version } = useragent.parse(navigator.userAgent);
-  return `${os} - ${browser} ${version}`;
-})();
-
 document.addEventListener('DOMContentLoaded', () => {
   let images;
+
+  const { os, browser, version } = useragent.parse(navigator.userAgent);
+  const userAgent = `${os} - ${browser} ${version}`;
+
+  function makeElementWithText(name, text) {
+    const newElement = document.createElement(name);
+    newElement.appendChild(document.createTextNode(text));
+    return newElement;
+  }
 
   const Context2DConstructor = (CanvasRenderingContext2D || Context2d);
   const _realFillText = Context2DConstructor.prototype.fillText;
@@ -59,17 +63,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     imageFolder.file('info.json', JSON.stringify(info, null, '\t'));
 
-    zip.generateAsync({type:"base64"}).then(function (base64) {
+    zip.generateAsync({ type: 'base64' }).then(function (base64) {
       const fixtureURI = `data:application/zip;base64,${base64}`;
 
       try {
         location.href = fixtureURI;
       } catch (e) {
-        const fixtureLinkInfo = document.createElement('p');
-        fixtureLinkInfo.appendChild(document.createTextNode(`It appears that your browser doesn't seem to support data URIs. Copy the link below into one that does (Safari, Firefox or Chrome) to download it.`));
-        const fixtureLink = document.createElement('a');
+        const fixtureLinkInfo = makeElementWithText(
+          `p`,
+          `It appears that your browser doesn't seem to support data URIs. Copy the link below into one that does (Safari, Firefox or Chrome) to download it.`
+        );
+        const fixtureLink = makeElementWithText(`a`, `Fixture ZIP link`);
         fixtureLink.href = fixtureURI;
-        fixtureLink.appendChild(document.createTextNode('Fixture ZIP link'));
         workArea.removeChild(generateButton);
         workArea.removeChild(userAgentReadout);
         workArea.appendChild(fixtureLinkInfo);
@@ -78,12 +83,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  const generateButton = document.createElement('button');
-  generateButton.appendChild(document.createTextNode('🗜Generate test fixtures'));
+  const generateButton = makeElementWithText(`button`, `🗜Generate test fixtures`);
   generateButton.addEventListener('click', generate);
   workArea.appendChild(generateButton);
 
-  const userAgentReadout = document.createElement('p');
-  userAgentReadout.appendChild(document.createTextNode(`for ${userAgent} 👍🏼`));
+  const userAgentReadout = makeElementWithText(`p`, `for ${userAgent} 👍🏼`);
   workArea.appendChild(userAgentReadout);
 });

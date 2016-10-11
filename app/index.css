@@ -6,9 +6,11 @@ body {
   color: #515151;
   background-color: #fbfbfb;
   margin: 0;
-  padding: 2.75em 1.75em 5em;
+  padding: 2.75em 1.75em 6.75em;
   text-align: center;
   font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Lucida Grande";
+  min-height: 100%;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
