@@ -1,3 +1,75 @@
+exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for ☑️ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for ♥ 1`] = `true`;
+
+exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for ♥️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for ⬛ 1`] = `true`;
+
+exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for 👸 1`] = `true`;
+
+exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for 👸🏾 1`] = `false`;
+
+exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for 🕵 1`] = `false`;
+
+exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for 🕵🏻‍♀️ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for 😙 1`] = `true`;
+
+exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for 🙂 1`] = `false`;
+
+exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for 🤔 1`] = `false`;
+
+exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for 🤣 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for ☑️ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for ♥ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for ♥️ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for ⬛ 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 👸 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 👸🏾 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 😙 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 🙂 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 🤔 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 🤣 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for ☑️ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for ♥ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for ♥️ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for ⬛ 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 👸 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 👸🏾 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 😙 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 🙂 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 🤔 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 🤣 1`] = `true`;
+
 exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for ☑️ 1`] = `true`;
 
 exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for ♥ 1`] = `true`;
