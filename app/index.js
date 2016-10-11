@@ -24,6 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
     return fillTextResponse;
   };
 
+  const workArea = document.getElementById('work-area');
+
   function generate(evt) {
     evt.preventDefault();
 
@@ -58,11 +60,23 @@ document.addEventListener('DOMContentLoaded', () => {
     imageFolder.file('info.json', JSON.stringify(info, null, '\t'));
 
     zip.generateAsync({type:"base64"}).then(function (base64) {
-      location.href = "data:application/zip;base64," + base64;
+      const fixtureURI = `data:application/zip;base64,${base64}`;
+
+      try {
+        location.href = fixtureURI;
+      } catch (e) {
+        const fixtureLinkInfo = document.createElement('p');
+        fixtureLinkInfo.appendChild(document.createTextNode(`It appears that your browser doesn't seem to support data URIs. Copy the link below into one that does (Safari, Firefox or Chrome) to download it.`));
+        const fixtureLink = document.createElement('a');
+        fixtureLink.href = fixtureURI;
+        fixtureLink.appendChild(document.createTextNode('Fixture ZIP link'));
+        workArea.removeChild(generateButton);
+        workArea.removeChild(userAgentReadout);
+        workArea.appendChild(fixtureLinkInfo);
+        workArea.appendChild(fixtureLink);
+      }
     });
   }
-
-  const workArea = document.getElementById('work-area');
 
   const generateButton = document.createElement('button');
   generateButton.appendChild(document.createTextNode('🗜Generate test fixtures'));
