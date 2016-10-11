@@ -22,7 +22,7 @@ export function canDrawCharacter(character, context) {
   context = prepareCanvasContext(context);
   context.fillText(character, 0, DRAW_SIZE);
 
-  return context.getImageData(DRAW_SIZE / 2, DRAW_SIZE / 2, 1, 1).data[0] !== 0;
+  return context.getImageData(DRAW_SIZE / 2 + 2, DRAW_SIZE / 2, 1, 1).data[0] !== 0;
 }
 
 export function getCharacterWidth(character, context) {
