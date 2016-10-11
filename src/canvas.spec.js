@@ -126,11 +126,17 @@ describe('canvas', () => {
       describe(platform, () => {
         beforeEach(() => {
           Context2d.prototype.fillText = jest.fn(function(text) {
+            const fileName = text
+              .match(/([\uD800-\uDBFF][\uDC00-\uDFFFF]|[\S\s])/g)
+              .map((char) => char.codePointAt(0).toString(16))
+              .join('-');
+
             const image = new Image();
             image.src = fs.readFileSync(path.resolve(
               __dirname,
-              `__fixtures__/${platform}/${text.split('').map((char) => char.charCodeAt(0).toString(16)).join('-')}.png`
+              `__fixtures__/${platform}/${fileName}.png`
             ));
+
             this.drawImage(image, 0, 0);
           });
         });

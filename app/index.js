@@ -54,8 +54,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const imageFolder = zip.folder(userAgent);
 
     imageNames.forEach((name) => {
+      const fileName = name
+        .match(/([\uD800-\uDBFF][\uDC00-\uDFFFF]|[\S\s])/g)
+        .map((char) => char.codePointAt(0).toString(16))
+        .join('-');
+
       imageFolder.file(
-        `${name.split('').map((char) => char.charCodeAt(0).toString(16)).join('-')}.png`,
+        `${fileName}.png`,
         images[name].split(',').slice(1).join(','),
         { base64: true }
       );
