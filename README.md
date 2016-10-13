@@ -15,11 +15,6 @@ Returns an object containing information about the current browser's emoji suppo
 
 Useful for determining broad emoji support
 
-### 🔬 `canDrawCharacter`
-
-Determines whether the supplied character is drawn (read: the center pixel is drawn) by the current browser.
-Useful for determining granular emoji support.
-
 ### 🔎 `detectVersion`
 
 Returns the maximum Unicode emoji version support was detected for, as a float.

@@ -15,7 +15,6 @@ export default function detect(context) {
   };
 }
 
-export { canDrawCharacter } from './canvas';
 export { default as detectVersion } from './detect/version';
 export { default as detectFitzpatrick } from './detect/fitzpatrick';
 export { default as detectGenders } from './detect/genders';

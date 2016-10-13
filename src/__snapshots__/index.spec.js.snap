@@ -1,0 +1,8 @@
+exports[`index package exposes known public API methods 1`] = `
+Array [
+  "detectVersion",
+  "detectFitzpatrick",
+  "detectGenders",
+  "default",
+]
+`;
