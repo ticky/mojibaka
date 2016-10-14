@@ -6,15 +6,22 @@ addons:
   apt:
     sources:
       - ubuntu-toolchain-r-test
+      - sourceline: 'deb http://dl.yarnpkg.com/debian/ stable main'
+        key_url: 'https://pgp.mit.edu/pks/lookup?op=get&fingerprint=on&search=0x1646B01B86E50310'
     packages:
       - libcairo2-dev
       - libjpeg8-dev
       - libpango1.0-dev
       - libgif-dev
       - g++-4.9
+      - yarn
 env:
   - CXX=g++-4.9
 before_install:
   - npm explore npm -g -- npm install node-gyp@latest
+install:
+  - yarn
+script:
+  - yarn test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
