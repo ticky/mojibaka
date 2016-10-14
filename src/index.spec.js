@@ -1,5 +1,9 @@
-/* global describe, it, expect, jest */
+/* global jest, describe, beforeEach, expect, it */
 import * as index from './index';
+import { prepareCanvasContext } from './canvas';
+import detectFitzpatrick from './detect/fitzpatrick';
+import detectGenders from './detect/genders';
+import detectVersion from './detect/version';
 
 jest.mock('./canvas');
 jest.mock('./detect/fitzpatrick');
@@ -7,13 +11,8 @@ jest.mock('./detect/genders');
 jest.mock('./detect/version');
 
 describe('index', () => {
-  const { prepareCanvasContext } = require('./canvas');
-  const { default: detectFitzpatrick } = require('./detect/fitzpatrick');
-  const { default: detectGenders } = require('./detect/genders');
-  const { default: detectVersion } = require('./detect/version');
-
   beforeEach(() => {
-    jest.clearAllMocks()
+    jest.clearAllMocks();
   });
 
   describe('package', () => {
@@ -22,18 +21,50 @@ describe('index', () => {
     });
   });
 
+  describe('detectFitzpatrick', () => {
+    it('is `detectFitzpatrick` from `detect/fitzpatrick`', () => {
+      expect(index.detectFitzpatrick).toBe(detectFitzpatrick);
+    });
+  });
+
+  describe('detectGenders', () => {
+    it('is `detectGenders` from `detect/genders`', () => {
+      expect(index.detectGenders).toBe(detectGenders);
+    });
+  });
+
+  describe('detectVersion', () => {
+    it('is `detectVersion` from `detect/version`', () => {
+      expect(index.detectVersion).toBe(detectVersion);
+    });
+  });
+
   describe('detect', () => {
     describe('with an existing canvas context', () => {
       it('calls through to `prepareCanvasContext`', () => {
         const context = {};
-        require('./index').default(context);
+        index.default(context);
         expect(prepareCanvasContext).toHaveBeenCalledTimes(1);
         expect(prepareCanvasContext).toHaveBeenCalledWith(context);
       });
 
+      it('calls through to `detectFitzpatrick`', () => {
+        const context = {};
+        index.default(context);
+        expect(detectFitzpatrick).toHaveBeenCalledTimes(1);
+        expect(detectFitzpatrick).toHaveBeenCalledWith(context);
+      });
+
+      it('calls through to `detectGenders`', () => {
+        const context = {};
+        index.default(context);
+        expect(detectGenders).toHaveBeenCalledTimes(1);
+        expect(detectGenders).toHaveBeenCalledWith(context);
+      });
+
       it('calls through to `detectVersion`', () => {
         const context = {};
-        require('./index').default(context);
+        index.default(context);
         expect(detectVersion).toHaveBeenCalledTimes(1);
         expect(detectVersion).toHaveBeenCalledWith(context);
       });
@@ -41,13 +72,25 @@ describe('index', () => {
 
     describe('with no supplied canvas context', () => {
       it('calls through to `prepareCanvasContext`', () => {
-        require('./index').default();
+        index.default();
         expect(prepareCanvasContext).toHaveBeenCalledTimes(1);
         expect(prepareCanvasContext).toHaveBeenCalledWith(undefined);
       });
 
+      it('calls through to `detectFitzpatrick`', () => {
+        index.default();
+        expect(detectFitzpatrick).toHaveBeenCalledTimes(1);
+        expect(detectFitzpatrick).toHaveBeenCalledWith(undefined);
+      });
+
+      it('calls through to `detectGenders`', () => {
+        index.default();
+        expect(detectGenders).toHaveBeenCalledTimes(1);
+        expect(detectGenders).toHaveBeenCalledWith(undefined);
+      });
+
       it('calls through to `detectVersion`', () => {
-        require('./index').default();
+        index.default();
         expect(detectVersion).toHaveBeenCalledTimes(1);
         expect(detectVersion).toHaveBeenCalledWith(undefined);
       });

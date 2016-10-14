@@ -1,4 +1,4 @@
-/* global describe, it, beforeEach, afterEach, expect, __dirname, jest */
+/* global jest, describe, beforeEach, afterEach, expect, it, __dirname */
 import { Image, Context2d } from 'canvas';
 import path from 'path';
 import fs from 'fs';

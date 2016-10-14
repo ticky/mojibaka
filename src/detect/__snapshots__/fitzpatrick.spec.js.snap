@@ -1,0 +1,25 @@
+exports[`detectFitzpatrick with an existing canvas context calls through to \`getCharacterWidth\` 1`] = `
+Array [
+  Array [
+    "👸",
+    Object {},
+  ],
+  Array [
+    "👸🏿",
+    Object {},
+  ],
+]
+`;
+
+exports[`detectFitzpatrick with no supplied canvas context calls through to \`getCharacterWidth\` 1`] = `
+Array [
+  Array [
+    "👸",
+    undefined,
+  ],
+  Array [
+    "👸🏿",
+    undefined,
+  ],
+]
+`;
