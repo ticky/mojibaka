@@ -50,9 +50,10 @@
     ]
   },
   "jest": {
+    "rootDir": "src",
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "src/**/*.js"
+      "**/*.js"
     ],
     "coveragePathIgnorePatterns": [
       "/node_modules/",
