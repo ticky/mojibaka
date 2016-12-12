@@ -70,29 +70,53 @@ exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows exp
 
 exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 🤣 1`] = `true`;
 
-exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for ☑️ 1`] = `true`;
+exports[`canvas canDrawCharacter iOS 10.0 - Safari 10.0 shows expected behaviour for ☑️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for ♥ 1`] = `true`;
+exports[`canvas canDrawCharacter iOS 10.0 - Safari 10.0 shows expected behaviour for ♥ 1`] = `true`;
 
-exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for ♥️ 1`] = `true`;
+exports[`canvas canDrawCharacter iOS 10.0 - Safari 10.0 shows expected behaviour for ♥️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for ⬛ 1`] = `true`;
+exports[`canvas canDrawCharacter iOS 10.0 - Safari 10.0 shows expected behaviour for ⬛ 1`] = `true`;
 
-exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for 👸 1`] = `true`;
+exports[`canvas canDrawCharacter iOS 10.0 - Safari 10.0 shows expected behaviour for 👸 1`] = `true`;
 
-exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for 👸🏾 1`] = `true`;
+exports[`canvas canDrawCharacter iOS 10.0 - Safari 10.0 shows expected behaviour for 👸🏾 1`] = `true`;
 
-exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for 🕵 1`] = `true`;
+exports[`canvas canDrawCharacter iOS 10.0 - Safari 10.0 shows expected behaviour for 🕵 1`] = `true`;
 
-exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+exports[`canvas canDrawCharacter iOS 10.0 - Safari 10.0 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for 😙 1`] = `true`;
+exports[`canvas canDrawCharacter iOS 10.0 - Safari 10.0 shows expected behaviour for 😙 1`] = `true`;
 
-exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for 🙂 1`] = `true`;
+exports[`canvas canDrawCharacter iOS 10.0 - Safari 10.0 shows expected behaviour for 🙂 1`] = `true`;
 
-exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for 🤔 1`] = `true`;
+exports[`canvas canDrawCharacter iOS 10.0 - Safari 10.0 shows expected behaviour for 🤔 1`] = `true`;
 
-exports[`canvas canDrawCharacter iOS 10 - Safari 10.0 shows expected behaviour for 🤣 1`] = `false`;
+exports[`canvas canDrawCharacter iOS 10.0 - Safari 10.0 shows expected behaviour for 🤣 1`] = `false`;
+
+exports[`canvas canDrawCharacter iOS 10.2 - Safari 10.0 shows expected behaviour for ☑️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter iOS 10.2 - Safari 10.0 shows expected behaviour for ♥ 1`] = `true`;
+
+exports[`canvas canDrawCharacter iOS 10.2 - Safari 10.0 shows expected behaviour for ♥️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter iOS 10.2 - Safari 10.0 shows expected behaviour for ⬛ 1`] = `true`;
+
+exports[`canvas canDrawCharacter iOS 10.2 - Safari 10.0 shows expected behaviour for 👸 1`] = `true`;
+
+exports[`canvas canDrawCharacter iOS 10.2 - Safari 10.0 shows expected behaviour for 👸🏾 1`] = `true`;
+
+exports[`canvas canDrawCharacter iOS 10.2 - Safari 10.0 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter iOS 10.2 - Safari 10.0 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter iOS 10.2 - Safari 10.0 shows expected behaviour for 😙 1`] = `true`;
+
+exports[`canvas canDrawCharacter iOS 10.2 - Safari 10.0 shows expected behaviour for 🙂 1`] = `true`;
+
+exports[`canvas canDrawCharacter iOS 10.2 - Safari 10.0 shows expected behaviour for 🤔 1`] = `true`;
+
+exports[`canvas canDrawCharacter iOS 10.2 - Safari 10.0 shows expected behaviour for 🤣 1`] = `true`;
 
 exports[`canvas canDrawCharacter in general with an existing canvas context calls through to fillText and confirms drawing 1`] = `false`;
 
