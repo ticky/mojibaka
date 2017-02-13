@@ -2,6 +2,7 @@ language: node_js
 node_js:
   - node
 sudo: false
+cache: yarn
 addons:
   apt:
     sources:
@@ -16,9 +17,6 @@ env:
   - CXX=g++-4.9
 before_install:
   - npm explore npm -g -- npm install node-gyp@latest
-install:
-  - yarn
-cache: yarn
 script:
   - yarn lint
   - yarn test
