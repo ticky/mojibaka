@@ -1,4 +1,6 @@
 # ✨ Mojibaka
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ticky/mojibaka.svg)](https://greenkeeper.io/)
 [![npm](https://img.shields.io/npm/v/mojibaka.svg?maxAge=2592000)](https://www.npmjs.com/package/mojibaka) ![mojibaka](https://img.shields.io/npm/l/mojibaka.svg?maxAge=2592000)  [![Build Status](https://travis-ci.org/ticky/mojibaka.svg?branch=master)](https://travis-ci.org/ticky/mojibaka) [![codecov](https://codecov.io/gh/ticky/mojibaka/branch/master/graph/badge.svg)](https://codecov.io/gh/ticky/mojibaka)
 
 A browser emoji support detection toolkit
