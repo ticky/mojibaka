@@ -1,3 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`detectGenders with an existing canvas context calls through to \`getCharacterWidth\` 1`] = `
 Array [
   Array [

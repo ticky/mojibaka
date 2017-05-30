@@ -1,3 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`index package exposes known public API methods 1`] = `
 Array [
   "detectVersion",

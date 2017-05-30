@@ -1,3 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for ☑️ 1`] = `false`;
 
 exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for ♥ 1`] = `true`;
@@ -234,4 +236,4 @@ exports[`canvas prepareCanvasContext with no canvas context creates a canvas wit
 
 exports[`canvas prepareCanvasContext with no canvas context creates a canvas with font and fillStyle 2`] = `"#000000"`;
 
-exports[`canvas prepareCanvasContext with no canvas context creates a canvas with font and fillStyle 3`] = `"32px \"Apple Color Emoji\",\"Segoe UI\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",Arial"`;
+exports[`canvas prepareCanvasContext with no canvas context creates a canvas with font and fillStyle 3`] = `"32px \\"Apple Color Emoji\\",\\"Segoe UI\\",\\"Segoe UI Emoji\\",\\"Segoe UI Symbol\\",Arial"`;
