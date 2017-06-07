@@ -12,6 +12,7 @@ Returns an object containing information about the current browser's emoji suppo
 * `version`: The return value of `detectVersion`
 * `fitzpatrick`: The return value of `detectFitzpatrick` (if `version` is > 0)
 * `genders`: The return value of `detectGenders` (if `version` is >= 7.0)
+* `scale`: The return value of `detectScale` (if `version` is > 0)
 
 Useful for determining broad emoji support
 
@@ -26,6 +27,10 @@ Returns a Boolean denoting whether the browser understands Fitzpatrick Skin Tone
 ### 🕵🏻‍♀️ `detectGenders`
 
 Returns a Boolean denoting whether the browser understands zero-width joiner gender modifiers (a Unicode 8.0 feature)
+
+### 📏 `detectScale`
+
+Returns the size of the emoji compared to text. Useful for compensating for size differences between different browser implementations.
 
 ## ⚠️ Caveats
 

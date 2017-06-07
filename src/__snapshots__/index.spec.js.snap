@@ -5,6 +5,7 @@ Array [
   "detectVersion",
   "detectFitzpatrick",
   "detectGenders",
+  "detectScale",
   "default",
 ]
 `;
