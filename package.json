@@ -1,6 +1,6 @@
 {
   "name": "mojibaka",
-  "version": "0.0.1",
+  "version": "1.0.0-pre",
   "description": "✨ Browser emoji support detection toolkit",
   "main": "index.js",
   "scripts": {
