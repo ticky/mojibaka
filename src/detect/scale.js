@@ -1,17 +1,6 @@
-function getCharacterDOMWidth(string, font) {
-  const span = document.createElement('span');
-  span.style.font = font;
-  span.appendChild(document.createTextNode(string));
+import { getCharacterWidth } from '../dom';
 
-  document.body.appendChild(span);
-  const { width } = span.getBoundingClientRect();
-  document.body.removeChild(span);
-
-  return Math.round(width);
-}
-
-export default function detectScale(font = '1rem Times, "Times New Roman", serif') {
-  return (
-    getCharacterDOMWidth('👩' /* woman */, font) / getCharacterDOMWidth('J!i', font)
-  );
+export default function detectScale() {
+  const ratio = getCharacterWidth('👩' /* woman */) / getCharacterWidth('J!i');
+  return Math.round(ratio * 10) / 10;
 }
