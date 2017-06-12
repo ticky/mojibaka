@@ -1,0 +1,68 @@
+{
+	"results": {
+		"version": 9,
+		"fitzpatrick": true,
+		"genders": true,
+		"scale": 1
+	},
+	"😙": {
+		"width": 32,
+		"domWidth": 16,
+		"canDraw": true
+	},
+	"🙂": {
+		"width": 32,
+		"domWidth": 16,
+		"canDraw": true
+	},
+	"🤔": {
+		"width": 32,
+		"domWidth": 16,
+		"canDraw": true
+	},
+	"🤣": {
+		"width": 32,
+		"domWidth": 16,
+		"canDraw": true
+	},
+	"👸": {
+		"width": 32,
+		"domWidth": 16,
+		"canDraw": true
+	},
+	"👸🏾": {
+		"width": 32,
+		"domWidth": 16,
+		"canDraw": true
+	},
+	"🕵": {
+		"width": 32,
+		"domWidth": 16,
+		"canDraw": true
+	},
+	"🕵🏻‍♀️": {
+		"width": 32,
+		"domWidth": 28,
+		"canDraw": true
+	},
+	"☑️": {
+		"width": 32,
+		"domWidth": 16,
+		"canDraw": true
+	},
+	"⬛": {
+		"width": 32,
+		"domWidth": 16,
+		"canDraw": true
+	},
+	"♥": {
+		"width": 32,
+		"domWidth": 10,
+		"canDraw": true
+	},
+	"♥️": {
+		"width": 32,
+		"domWidth": 10,
+		"canDraw": true
+	}
+}

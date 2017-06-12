@@ -1,0 +1,68 @@
+{
+	"results": {
+		"version": 9,
+		"fitzpatrick": true,
+		"genders": true,
+		"scale": 1.3
+	},
+	"😙": {
+		"width": 32,
+		"domWidth": 21,
+		"canDraw": true
+	},
+	"🙂": {
+		"width": 32,
+		"domWidth": 21,
+		"canDraw": true
+	},
+	"🤔": {
+		"width": 32,
+		"domWidth": 21,
+		"canDraw": true
+	},
+	"🤣": {
+		"width": 32,
+		"domWidth": 21,
+		"canDraw": true
+	},
+	"👸": {
+		"width": 32,
+		"domWidth": 21,
+		"canDraw": true
+	},
+	"👸🏾": {
+		"width": 32,
+		"domWidth": 21,
+		"canDraw": true
+	},
+	"🕵": {
+		"width": 32,
+		"domWidth": 21,
+		"canDraw": true
+	},
+	"🕵🏻‍♀️": {
+		"width": 32,
+		"domWidth": 21,
+		"canDraw": true
+	},
+	"☑️": {
+		"width": 32,
+		"domWidth": 21,
+		"canDraw": true
+	},
+	"⬛": {
+		"width": 32,
+		"domWidth": 21,
+		"canDraw": true
+	},
+	"♥": {
+		"width": 32,
+		"domWidth": 10,
+		"canDraw": true
+	},
+	"♥️": {
+		"width": 32,
+		"domWidth": 21,
+		"canDraw": true
+	}
+}

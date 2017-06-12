@@ -24,53 +24,125 @@ exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expect
 
 exports[`canvas canDrawCharacter Android 6.0 - Chrome 53.0.2785.124 shows expected behaviour for 🤣 1`] = `false`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for ☑️ 1`] = `false`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Edge 14.14393 shows expected behaviour for ☑️ 1`] = `false`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for ♥ 1`] = `false`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Edge 14.14393 shows expected behaviour for ♥ 1`] = `false`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for ♥️ 1`] = `false`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Edge 14.14393 shows expected behaviour for ♥️ 1`] = `false`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for ⬛ 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Edge 14.14393 shows expected behaviour for ⬛ 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 👸 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Edge 14.14393 shows expected behaviour for 👸 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 👸🏾 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Edge 14.14393 shows expected behaviour for 👸🏾 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 🕵 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Edge 14.14393 shows expected behaviour for 🕵 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Edge 14.14393 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 😙 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Edge 14.14393 shows expected behaviour for 😙 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 🙂 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Edge 14.14393 shows expected behaviour for 🙂 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 🤔 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Edge 14.14393 shows expected behaviour for 🤔 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Edge 14.14393 shows expected behaviour for 🤣 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Edge 14.14393 shows expected behaviour for 🤣 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for ☑️ 1`] = `false`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Firefox 49.0 shows expected behaviour for ☑️ 1`] = `false`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for ♥ 1`] = `false`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Firefox 49.0 shows expected behaviour for ♥ 1`] = `false`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for ♥️ 1`] = `false`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Firefox 49.0 shows expected behaviour for ♥️ 1`] = `false`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for ⬛ 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Firefox 49.0 shows expected behaviour for ⬛ 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 👸 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Firefox 49.0 shows expected behaviour for 👸 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 👸🏾 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Firefox 49.0 shows expected behaviour for 👸🏾 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 🕵 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Firefox 49.0 shows expected behaviour for 🕵 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Firefox 49.0 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 😙 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Firefox 49.0 shows expected behaviour for 😙 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 🙂 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Firefox 49.0 shows expected behaviour for 🙂 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 🤔 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Firefox 49.0 shows expected behaviour for 🤔 1`] = `true`;
 
-exports[`canvas canDrawCharacter Windows 10 Anniversary - Firefox 49.0 shows expected behaviour for 🤣 1`] = `true`;
+exports[`canvas canDrawCharacter Windows 10 (1607) Anniversary - Firefox 49.0 shows expected behaviour for 🤣 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Chrome 59.0.3071.86 shows expected behaviour for ☑️ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Chrome 59.0.3071.86 shows expected behaviour for ♥ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Chrome 59.0.3071.86 shows expected behaviour for ♥️ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Chrome 59.0.3071.86 shows expected behaviour for ⬛ 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Chrome 59.0.3071.86 shows expected behaviour for 👸 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Chrome 59.0.3071.86 shows expected behaviour for 👸🏾 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Chrome 59.0.3071.86 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Chrome 59.0.3071.86 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Chrome 59.0.3071.86 shows expected behaviour for 😙 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Chrome 59.0.3071.86 shows expected behaviour for 🙂 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Chrome 59.0.3071.86 shows expected behaviour for 🤔 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Chrome 59.0.3071.86 shows expected behaviour for 🤣 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Edge 15.15063 shows expected behaviour for ☑️ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Edge 15.15063 shows expected behaviour for ♥ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Edge 15.15063 shows expected behaviour for ♥️ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Edge 15.15063 shows expected behaviour for ⬛ 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Edge 15.15063 shows expected behaviour for 👸 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Edge 15.15063 shows expected behaviour for 👸🏾 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Edge 15.15063 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Edge 15.15063 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Edge 15.15063 shows expected behaviour for 😙 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Edge 15.15063 shows expected behaviour for 🙂 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Edge 15.15063 shows expected behaviour for 🤔 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Edge 15.15063 shows expected behaviour for 🤣 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Firefox 53.0 shows expected behaviour for ☑️ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Firefox 53.0 shows expected behaviour for ♥ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Firefox 53.0 shows expected behaviour for ♥️ 1`] = `false`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Firefox 53.0 shows expected behaviour for ⬛ 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Firefox 53.0 shows expected behaviour for 👸 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Firefox 53.0 shows expected behaviour for 👸🏾 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Firefox 53.0 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Firefox 53.0 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Firefox 53.0 shows expected behaviour for 😙 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Firefox 53.0 shows expected behaviour for 🙂 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Firefox 53.0 shows expected behaviour for 🤔 1`] = `true`;
+
+exports[`canvas canDrawCharacter Windows 10 (1703) Creators - Firefox 53.0 shows expected behaviour for 🤣 1`] = `true`;
 
 exports[`canvas canDrawCharacter iOS 10.0 - Safari 10.0 shows expected behaviour for ☑️ 1`] = `true`;
 
@@ -124,101 +196,173 @@ exports[`canvas canDrawCharacter in general with an existing canvas context call
 
 exports[`canvas canDrawCharacter in general with no canvas context calls through to fillText and confirms drawing without creating a context 1`] = `false`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for ☑️ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Chrome 53.0.2785.143 shows expected behaviour for ☑️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for ♥ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Chrome 53.0.2785.143 shows expected behaviour for ♥ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for ♥️ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Chrome 53.0.2785.143 shows expected behaviour for ♥️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for ⬛ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Chrome 53.0.2785.143 shows expected behaviour for ⬛ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 👸 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Chrome 53.0.2785.143 shows expected behaviour for 👸 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 👸🏾 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Chrome 53.0.2785.143 shows expected behaviour for 👸🏾 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🕵 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🕵 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 😙 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Chrome 53.0.2785.143 shows expected behaviour for 😙 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🙂 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🙂 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🤔 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🤔 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🤣 1`] = `false`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Chrome 53.0.2785.143 shows expected behaviour for 🤣 1`] = `false`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for ☑️ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Firefox 49.0 shows expected behaviour for ☑️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for ♥ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Firefox 49.0 shows expected behaviour for ♥ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for ♥️ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Firefox 49.0 shows expected behaviour for ♥️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for ⬛ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Firefox 49.0 shows expected behaviour for ⬛ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 👸 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Firefox 49.0 shows expected behaviour for 👸 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 👸🏾 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Firefox 49.0 shows expected behaviour for 👸🏾 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 🕵 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Firefox 49.0 shows expected behaviour for 🕵 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Firefox 49.0 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 😙 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Firefox 49.0 shows expected behaviour for 😙 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 🙂 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Firefox 49.0 shows expected behaviour for 🙂 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 🤔 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Firefox 49.0 shows expected behaviour for 🤔 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Firefox 49.0 shows expected behaviour for 🤣 1`] = `false`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Firefox 49.0 shows expected behaviour for 🤣 1`] = `false`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for ☑️ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Opera 40.0.2308.81 shows expected behaviour for ☑️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for ♥ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Opera 40.0.2308.81 shows expected behaviour for ♥ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for ♥️ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Opera 40.0.2308.81 shows expected behaviour for ♥️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for ⬛ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Opera 40.0.2308.81 shows expected behaviour for ⬛ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 👸 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Opera 40.0.2308.81 shows expected behaviour for 👸 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 👸🏾 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Opera 40.0.2308.81 shows expected behaviour for 👸🏾 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 🕵 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Opera 40.0.2308.81 shows expected behaviour for 🕵 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Opera 40.0.2308.81 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 😙 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Opera 40.0.2308.81 shows expected behaviour for 😙 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 🙂 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Opera 40.0.2308.81 shows expected behaviour for 🙂 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 🤔 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Opera 40.0.2308.81 shows expected behaviour for 🤔 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Opera 40.0.2308.81 shows expected behaviour for 🤣 1`] = `false`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Opera 40.0.2308.81 shows expected behaviour for 🤣 1`] = `false`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for ☑️ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Safari 10.0 shows expected behaviour for ☑️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for ♥ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Safari 10.0 shows expected behaviour for ♥ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for ♥️ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Safari 10.0 shows expected behaviour for ♥️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for ⬛ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Safari 10.0 shows expected behaviour for ⬛ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 👸 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Safari 10.0 shows expected behaviour for 👸 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 👸🏾 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Safari 10.0 shows expected behaviour for 👸🏾 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 🕵 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Safari 10.0 shows expected behaviour for 🕵 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Safari 10.0 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 😙 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Safari 10.0 shows expected behaviour for 😙 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 🙂 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Safari 10.0 shows expected behaviour for 🙂 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 🤔 1`] = `true`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Safari 10.0 shows expected behaviour for 🤔 1`] = `true`;
 
-exports[`canvas canDrawCharacter macOS Sierra - Safari 10.0 shows expected behaviour for 🤣 1`] = `false`;
+exports[`canvas canDrawCharacter macOS 10.12.0 Sierra - Safari 10.0 shows expected behaviour for 🤣 1`] = `false`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Chrome 58.0.3029 shows expected behaviour for ☑️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Chrome 58.0.3029 shows expected behaviour for ♥ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Chrome 58.0.3029 shows expected behaviour for ♥️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Chrome 58.0.3029 shows expected behaviour for ⬛ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Chrome 58.0.3029 shows expected behaviour for 👸 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Chrome 58.0.3029 shows expected behaviour for 👸🏾 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Chrome 58.0.3029 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Chrome 58.0.3029 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Chrome 58.0.3029 shows expected behaviour for 😙 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Chrome 58.0.3029 shows expected behaviour for 🙂 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Chrome 58.0.3029 shows expected behaviour for 🤔 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Chrome 58.0.3029 shows expected behaviour for 🤣 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Firefox 53.0 shows expected behaviour for ☑️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Firefox 53.0 shows expected behaviour for ♥ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Firefox 53.0 shows expected behaviour for ♥️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Firefox 53.0 shows expected behaviour for ⬛ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Firefox 53.0 shows expected behaviour for 👸 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Firefox 53.0 shows expected behaviour for 👸🏾 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Firefox 53.0 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Firefox 53.0 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Firefox 53.0 shows expected behaviour for 😙 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Firefox 53.0 shows expected behaviour for 🙂 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Firefox 53.0 shows expected behaviour for 🤔 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Firefox 53.0 shows expected behaviour for 🤣 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Safari 10.1.1 shows expected behaviour for ☑️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Safari 10.1.1 shows expected behaviour for ♥ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Safari 10.1.1 shows expected behaviour for ♥️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Safari 10.1.1 shows expected behaviour for ⬛ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Safari 10.1.1 shows expected behaviour for 👸 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Safari 10.1.1 shows expected behaviour for 👸🏾 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Safari 10.1.1 shows expected behaviour for 🕵 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Safari 10.1.1 shows expected behaviour for 🕵🏻‍♀️ 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Safari 10.1.1 shows expected behaviour for 😙 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Safari 10.1.1 shows expected behaviour for 🙂 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Safari 10.1.1 shows expected behaviour for 🤔 1`] = `true`;
+
+exports[`canvas canDrawCharacter macOS 10.12.5 Sierra - Safari 10.1.1 shows expected behaviour for 🤣 1`] = `true`;
 
 exports[`canvas getCharacterWidth with an existing canvas context calls through to measureText and returns the width 1`] = `1234`;
 
