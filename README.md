@@ -34,7 +34,6 @@ Returns the size of the emoji compared to text, as a float, rounded to one decim
 
 ## ⚠️ Caveats
 
-* This is still being tested. It may not (read: definitely does not) handle all cases
-* This doesn't test for Unicode 10.0 compatibility
+* This doesn't yet test for Unicode 10.0 compatibility
 * No version test is conclusive; individual character support _still_ varies by platform
-* The API may change wildly as I try to make use of this
+* Consider carefully what you're using Mojibaka's output for. The less work you do to handle Emoji yourself within the browser, the better!
