@@ -6,15 +6,8 @@ import TEST_CHARS from './__fixtures__/test-characters';
 
 import { prepareCanvasContext, canDrawCharacter, getCharacterWidth } from './canvas';
 
-// import * as __CANVAS from 'canvas';
-// import * as __LOCAL_CANVAS from './canvas';
-
-// console.log('canvas.spec', __CANVAS, __LOCAL_CANVAS, __CANVAS === __LOCAL_CANVAS);
-
-// neither 'canvas' nor './canvas' should be mocked,
-// but for some reason 'canvas' remains mocked in this
-// file, despite mocking not being requested
-// bug filed at <https://github.com/facebook/jest/issues/1927>
+// file mocks override node modules, which sucks, but this
+// overrides that behaviour so we get the right thing
 jest.unmock('canvas');
 
 const FIXTURE_PATH = path.resolve(__dirname, '__fixtures__');

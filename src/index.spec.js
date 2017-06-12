@@ -3,11 +3,13 @@ import * as index from './index';
 import { prepareCanvasContext } from './canvas';
 import detectFitzpatrick from './detect/fitzpatrick';
 import detectGenders from './detect/genders';
+import detectScale from './detect/scale';
 import detectVersion from './detect/version';
 
 jest.mock('./canvas');
 jest.mock('./detect/fitzpatrick');
 jest.mock('./detect/genders');
+jest.mock('./detect/scale');
 jest.mock('./detect/version');
 
 describe('index', () => {
@@ -30,6 +32,12 @@ describe('index', () => {
   describe('detectGenders', () => {
     it('is `detectGenders` from `detect/genders`', () => {
       expect(index.detectGenders).toBe(detectGenders);
+    });
+  });
+
+  describe('detectScale', () => {
+    it('is `detectScale` from `detect/scale`', () => {
+      expect(index.detectScale).toBe(detectScale);
     });
   });
 
@@ -62,6 +70,12 @@ describe('index', () => {
         expect(detectGenders).toHaveBeenCalledWith(context);
       });
 
+      it('calls through to `detectScale`', () => {
+        const context = {};
+        index.default(context);
+        expect(detectScale).toHaveBeenCalledTimes(1);
+      });
+
       it('calls through to `detectVersion`', () => {
         const context = {};
         index.default(context);
@@ -87,6 +101,11 @@ describe('index', () => {
         index.default();
         expect(detectGenders).toHaveBeenCalledTimes(1);
         expect(detectGenders).toHaveBeenCalledWith(undefined);
+      });
+
+      it('calls through to `detectScale`', () => {
+        index.default();
+        expect(detectScale).toHaveBeenCalledTimes(1);
       });
 
       it('calls through to `detectVersion`', () => {
