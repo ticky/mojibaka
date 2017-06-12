@@ -1,5 +1,6 @@
 coverage
 node_modules
 
-# `lib` is not included in git repo
-lib
+# Ignore root-level JS
+/*.js
+/detect/*.js
