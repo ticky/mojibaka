@@ -1,7 +1,9 @@
 import JSZip from 'jszip';
 import useragent from 'express-useragent';
 
-import { canDrawCharacter, getCharacterWidth } from '../src/canvas';
+import detect from '../src/index';
+import { canDrawCharacter, getCharacterWidth as getCanvasCharacterWidth } from '../src/canvas';
+import { getCharacterWidth as getDOMCharacterWidth } from '../src/dom';
 
 import TEST_CHARS from '../src/__fixtures__/test-characters';
 
@@ -34,14 +36,16 @@ document.addEventListener('DOMContentLoaded', () => {
     evt.preventDefault();
 
     images = {};
-    const info = {};
+    const info = {
+      results: detect()
+    };
 
     TEST_CHARS.forEach((char) => {
       info[char] = {
-        width: getCharacterWidth(char)
+        width: getCanvasCharacterWidth(char),
+        domWidth: getDOMCharacterWidth(char),
+        canDraw: canDrawCharacter(char)
       };
-
-      canDrawCharacter(char);
     });
 
     const imageNames = Object.keys(images);
@@ -71,12 +75,10 @@ document.addEventListener('DOMContentLoaded', () => {
     zip.generateAsync({ type: 'base64' }).then(function (base64) {
       const fixtureURI = `data:application/zip;base64,${base64}`;
 
-      try {
-        location.href = fixtureURI;
-      } catch (e) {
+      const showFallback = (fixtureURI) => {
         const fixtureLinkInfo = makeElementWithText(
           `p`,
-          `It appears that your browser doesn't seem to support data URIs. Copy the link below into one that does (Safari, Firefox or Chrome) to download it.`
+          `If your browser hasn't started downloading a zip file, you can copy the link below into a browser that supports data URIs (Safari, Firefox or Chrome) to download it!`
         );
         const fixtureLink = makeElementWithText(`a`, `Fixture ZIP link`);
         fixtureLink.href = fixtureURI;
@@ -84,6 +86,16 @@ document.addEventListener('DOMContentLoaded', () => {
         workArea.removeChild(userAgentReadout);
         workArea.appendChild(fixtureLinkInfo);
         workArea.appendChild(fixtureLink);
+      }
+
+      let timeout = setTimeout(showFallback.bind(this, fixtureURI), 500);
+
+      try {
+        location.href = fixtureURI;
+      } catch (e) {
+        clearTimeout(timeout);
+        showFallback(fixtureURI);
+        return;
       }
     });
   }
