@@ -1,2 +1,9 @@
+coverage
 app
 docs
+
+# Ignore specs and supports
+__fixtures__
+__mocks__
+__snapshots__
+*.spec.js
