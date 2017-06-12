@@ -30,7 +30,7 @@ Returns a Boolean denoting whether the browser understands zero-width joiner gen
 
 ### 📏 `detectScale`
 
-Returns the size of the emoji compared to text. Useful for compensating for size differences between different browser implementations.
+Returns the size of the emoji compared to text, as a float, rounded to one decimal place. Useful for compensating for size differences between different browser implementations.
 
 ## ⚠️ Caveats
 
