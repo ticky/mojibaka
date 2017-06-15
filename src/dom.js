@@ -3,9 +3,9 @@ export function getCharacterWidth(string) {
   span.style.font = '1rem Times, "Times New Roman", serif';
   span.appendChild(document.createTextNode(string));
 
-  document.body.appendChild(span);
+  document.documentElement.appendChild(span);
   const { width } = span.getBoundingClientRect();
-  document.body.removeChild(span);
+  document.documentElement.removeChild(span);
 
   return Math.round(width);
 }
