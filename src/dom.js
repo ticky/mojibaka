@@ -1,6 +1,6 @@
-export function getCharacterWidth(string) {
+export function getCharacterWidth(string, fontSize = '16px') {
   const span = document.createElement('span');
-  span.style.font = '16px Times, "Times New Roman", serif';
+  span.style.font = `${fontSize} Times, "Times New Roman", serif`;
   span.appendChild(document.createTextNode(string));
 
   document.documentElement.appendChild(span);
