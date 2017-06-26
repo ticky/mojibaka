@@ -5,7 +5,7 @@ export function getCharacterWidth(string, fontSize = '16px') {
 
   document.documentElement.appendChild(span);
   const { width } = span.getBoundingClientRect();
-  document.documentElement.removeChild(span);
+  //document.documentElement.removeChild(span);
 
-  return Math.round(width);
+  return width;
 }

@@ -4,6 +4,7 @@ import useragent from 'express-useragent';
 import detect from '../src/index';
 import { canDrawCharacter, getCharacterWidth as getCanvasCharacterWidth } from '../src/canvas';
 import { getCharacterWidth as getDOMCharacterWidth } from '../src/dom';
+import { detectScaleRatios } from '../src/detect/scale';
 
 import TEST_CHARS from '../src/__fixtures__/test-characters';
 
@@ -106,4 +107,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const userAgentReadout = makeElementWithText(`p`, `for ${userAgent} 👍🏼`);
   workArea.appendChild(userAgentReadout);
+
+  const scaleReadout = makeElementWithText('pre', JSON.stringify(detectScaleRatios(), null, '  '));
+  scaleReadout.style.textAlign = 'left';
+  workArea.appendChild(scaleReadout);
 });
