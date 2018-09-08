@@ -1050,9 +1050,9 @@ caniuse-lite@^1.0.30000844:
   version "1.0.30000874"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000874.tgz#a641b1f1c420d58d9b132920ef6ba87bbdcd2223"
 
-canvas@1.6.11:
-  version "1.6.11"
-  resolved "https://registry.yarnpkg.com/canvas/-/canvas-1.6.11.tgz#c2d8bcf283281f19ded14fa163a111804522330d"
+canvas@1.6.12:
+  version "1.6.12"
+  resolved "https://registry.yarnpkg.com/canvas/-/canvas-1.6.12.tgz#9ab02cdb6b543ae6705f566e33f9407625da901e"
   dependencies:
     nan "^2.10.0"
 
