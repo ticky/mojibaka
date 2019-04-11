@@ -42,7 +42,7 @@
     "jszip": "3.2.1",
     "style-loader": "0.23.1",
     "webpack": "1.15.0",
-    "webpack-dev-server": "3.3.0"
+    "webpack-dev-server": "3.3.1"
   },
   "babel": {
     "presets": [
