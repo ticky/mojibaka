@@ -32,7 +32,7 @@
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
     "canvas": "1.6.13",
-    "css-loader": "2.1.1",
+    "css-loader": "3.6.0",
     "eslint": "5.16.0",
     "eslint-plugin-babel": "5.3.0",
     "express-useragent": "1.0.12",
