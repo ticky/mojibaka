@@ -41,7 +41,7 @@
     "jsdom": "15.0.0",
     "jszip": "3.2.1",
     "style-loader": "1.2.0",
-    "webpack": "1.15.0",
+    "webpack": "4.44.1",
     "webpack-dev-server": "3.11.0"
   },
   "babel": {
