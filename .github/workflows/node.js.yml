@@ -26,7 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
-    - run: sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev g++
+    - run: sudo apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
     - run: yarn install
     - run: yarn lint
     - run: yarn test
